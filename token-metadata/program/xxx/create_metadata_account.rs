@@ -20,6 +20,12 @@ use utils::*;
 
 mod create_meta_accounts {
     use super::*;
+    #[test]
+    fn it_works() {
+        let result = 2 + 2;
+        assert_eq!(result, 4);
+    }
+
     #[tokio::test]
     async fn success() {
         let mut context = program_test().start_with_context().await;

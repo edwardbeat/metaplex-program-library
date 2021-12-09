@@ -24,6 +24,6 @@ borsh = "0.9.1"
 [dev-dependencies]
 solana-sdk = "1.7.11"
 solana-program-test = "1.7.11"
-
+actix-rt = "*"
 [lib]
 crate-type = ["cdylib", "lib"]
